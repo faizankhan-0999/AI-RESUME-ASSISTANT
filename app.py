@@ -15,7 +15,7 @@ from google.genai import types
 from pydantic import BaseModel, Field
 from pypdf import PdfReader
 
-DEFAULT_MODEL = "gemini-3.8-flash"
+DEFAULT_MODEL = "gemini-3.5-flash"
 MAX_RESUME_CHARS = 30_000
 MAX_JD_CHARS = 10_000
 MIN_RESUME_CHARS = 200
